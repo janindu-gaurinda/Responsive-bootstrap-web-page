@@ -1,0 +1,123 @@
+/* custom css */
+@font-face {
+  font-family: lexend;
+  src: url(../font/lexend.ttf);
+}
+:root {
+  --c-primary: #0466c8;
+  --c-secondry: #0353a4;
+  --c-background: #002855;
+  --c-dark: #001233;
+  --c-black: #001845;
+  --c-gray1: #33415c;
+  --c-gray2: #5c677d;
+  --c-gray3: #7d8597;
+  --c-gray4: #979dac;
+}
+
+body {
+  font-family: lexend, Arial, Helvetica, sans-serif;
+  font-family: 16px;
+  line-height: 1.6;
+}
+.nav_bar_dark {
+  background-color: var(--c-primary);
+}
+.navbar {
+  background-color: var(--c-primary);
+  height: 50px;
+}
+.h1 .h2 .h3 .h4 .h5 .h6 {
+  font-weight: 600;
+}
+.nav-link {
+  color: var(--c-dark);
+  font-weight: bold;
+}
+.nav-link:hover {
+  /* color: var(--c-gray4); */
+  color: white;
+}
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.img {
+  max-width: 100%;
+  height: auto;
+}
+.btn-primary {
+  background-color: var(--c-background);
+  color: white;
+  border: none;
+  font-weight: 700;
+}
+.btn-primary:hover {
+  background-color: white;
+  color: var(--c-background);
+  border: none;
+  font-weight: 700;
+}
+.btn-light {
+    /* background-color: var(--c-gray4);
+    color: var(--c-dark); */
+    font-weight: 700;
+    border: none;
+}
+.btn-light:hover {
+    background-color: var(--c-gray1);
+    color: white;
+ 
+    font-weight: 700;
+}
+.btn-light{
+    font-weight: 700;
+    border: none;
+}
+/* hero */
+#hero {
+  background: url(../img/img12.jpg);
+  object-fit: cover;
+  background-position: top;
+  /* margin-top: -30px; */
+}
+.hero_text {
+  font-size: 90px;
+  font-weight: 700;
+ 
+}
+.brand-title{
+    font-size: 60px;
+    font-weight: 700;
+}
+.brand-p{
+    font-size: 20px;
+}
+.brand-title-light{
+  font-size: 60px;
+  font-weight: 500;
+  color: var(--c-dark);
+}
+
+.about_us_img{
+    height: 500px;
+    width: 300px;
+    object-fit: cover;
+}
+/* icon box setup */
+.iconbox{
+  /* background-color: var(--c-background); */
+  color: var(--c-primary);
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  font-size: 50px;
+}
+/* icon box setup */
+
+
+@media screen and (max-width: 991px) {
+  .navbar {
+    height: 100px;
+  }
+}
